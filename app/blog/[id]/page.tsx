@@ -42,7 +42,7 @@ export default function Page({ params }: { params: { id: string } }) {
             <img
               src={block.src}
               alt={block.alt || 'Blog Image'}
-              className="rounded-lg shadow-md max-w-full h-auto" // Add basic image styling
+              className="rounded-lg shadow-md object-cover max-w-full h-auto" // Add basic image styling
             />
           </div>
         );

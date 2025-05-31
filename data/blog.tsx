@@ -28,7 +28,7 @@ export const blogItems: BlogItem[] = [
     description: "Web Dev", // Optional description
     number: 1,
     href: "how-to-start-development-journey",
-    imageUrl: "https://picsum.photos/seed/dev/800/400", // Example featured image
+    imageUrl: "https://i.pinimg.com/736x/8c/bb/a6/8cbba6fe9a3b8d689239128f5de0bd49.jpg", // Example featured image
     content: [
 { type: 'heading', level: 3, text: '💡Recommended Resources' },
 { type: 'list', items: [

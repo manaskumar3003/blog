@@ -30,51 +30,34 @@ export const blogItems: BlogItem[] = [
     href: "how-to-start-development-journey",
     imageUrl: "https://i.pinimg.com/736x/8c/bb/a6/8cbba6fe9a3b8d689239128f5de0bd49.jpg", // Example featured image
     content: [
-{ type: 'heading', level: 3, text: '💡Recommended Resources' },
-{ type: 'list', items: [
-  'freeCodeCamp: Offers a comprehensive, self-paced curriculum covering HTML, CSS, JavaScript, and more.',
-  'Wikipedia',
-  'W3Schools: Provides tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, and SQL.',
-  'The Odin Project: Features a full-stack curriculum that integrates project-based learning.',
-  'Stack Overflow',
-  'roadmap.sh',
-  'BrowserStack',
-  'YouTube Channels: Channels like Traversy Media and The Net Ninja offer practical tutorials and project walkthroughs.'
-] },
-{ type: 'heading', level: 3, text: '🛠️ Tools to Get Started' },
-{ type: 'list', items: [
-  'Code Editors: Visual Studio Code, Sublime Text',
-  'Version Control: Git and GitHub for tracking changes and collaboration',
-  'Stack Overflow',
-  'YouTube',
-  'Design Inspiration: Dribbble, Behance',
-  'Deployment Platforms: Netlify, Vercel, GitHub Pages'
-] },
-{ type: 'paragraph', text: 'Consistency is key!' },
-      
-      
+      { type: 'heading', level: 3, text: '💡Recommended Resources' },
+      {
+        type: 'list', items: [
+          'freeCodeCamp: Offers a comprehensive, self-paced curriculum covering HTML, CSS, JavaScript, and more.',
+          'Wikipedia',
+          'W3Schools: Provides tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, and SQL.',
+          'The Odin Project: Features a full-stack curriculum that integrates project-based learning.',
+          'Stack Overflow',
+          'roadmap.sh',
+          'BrowserStack',
+          'YouTube Channels: Channels like Traversy Media and The Net Ninja offer practical tutorials and project walkthroughs.'
+        ]
+      },
+      { type: 'heading', level: 3, text: '🛠️ Tools to Get Started' },
+      {
+        type: 'list', items: [
+          'Code Editors: Visual Studio Code, Sublime Text',
+          'Version Control: Git and GitHub for tracking changes and collaboration',
+          'Stack Overflow',
+          'YouTube',
+          'Design Inspiration: Dribbble, Behance',
+          'Deployment Platforms: Netlify, Vercel, GitHub Pages'
+        ]
+      },
+      { type: 'paragraph', text: 'Consistency is key!' },
+
+
     ],
   },
-  {
-    title: "Another Interesting Topic",
-    description: "Details about the topic.",
-    number: 2,
-    href: "another-topic",
-    content: [
-      { type: 'paragraph', text: 'Content for the second blog post.' },
-      // Add other blocks
-    ],
-  },
-   {
-    title: "The Future of AI",
-    description: "Exploring advancements in AI.",
-    number: 3,
-    href: "the-future-of-ai",
-    imageUrl: "https://picsum.photos/seed/ai/800/400",
-    content: [
-      { type: 'heading', level: 2, text: 'AI Advancements' },
-      { type: 'paragraph', text: 'Artificial intelligence continues to evolve rapidly...' },
-      // ... more content blocks
-    ],
-  },
+
 ];
